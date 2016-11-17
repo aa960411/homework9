@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:orientation="vertical" >
+
+
+    <Button
+
+        android:id="@+id/BtnD"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="/"
+        android:layout_marginBottom="124dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/BtnA"
+        android:layout_alignStart="@+id/BtnA" />
+
+    <Button
+
+        android:id="@+id/BtnS"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="-"
+        android:layout_above="@+id/BtnM"
+        android:layout_alignLeft="@+id/BtnM"
+        android:layout_alignStart="@+id/BtnM" />
+
+    <EditText
+
+        android:id="@+id/Edit1"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:hint="num"
+        android:layout_marginLeft="17dp"
+        android:layout_above="@+id/Edit2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="17dp" />
+
+    <Button
+
+        android:id="@+id/BtnM"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="*"
+        android:layout_above="@+id/BtnD"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+
+        android:id="@+id/BtnA"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="+"
+        android:layout_above="@+id/BtnS"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+
+        android:id="@+id/Edit2"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:hint="num"
+        android:layout_above="@+id/BtnA"
+        android:layout_alignLeft="@+id/Edit1"
+        android:layout_alignStart="@+id/Edit1" />
+
+    <TextView
+
+        android:id="@+id/Result"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:textSize="30dip"
+
+        android:textColor="#0000ff"
+
+        android:text="result : "
+        android:layout_marginBottom="47dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/Edit2"
+        android:layout_alignStart="@+id/Edit2" />
+
+</LinearLayout>
